@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "699641276626",
+    "project_id": "homegame-699a0",
+    "storage_bucket": "homegame-699a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699641276626:android:a665117d76642f8038250b",
+        "android_client_info": {
+          "package_name": "com.olin.homegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699641276626-j6q5hqh1k8uto0f3g40f2ub8vugfvflb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.olin.homegame",
+            "certificate_hash": "e7e240fd3b43a4f1793b8e599324fd55120218f7"
+          }
+        },
+        {
+          "client_id": "699641276626-2neivbv048u3k9l61jevjij96odpac0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwTlXORWO-th7Q9gzKHHESjz3MaRISKOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699641276626-2neivbv048u3k9l61jevjij96odpac0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

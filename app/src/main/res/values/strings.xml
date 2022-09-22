@@ -6,4 +6,13 @@
     <string name="cadastro_novo">Não tem conta? Cadastre-se</string>
     <string name="nome">Nome</string>
     <string name="cadastrar">Cadastrar</string>
+    <string name="confirme_senha">Confirme sua senha</string>
+    <string name="avancar">AVANÇAR</string>
+    <string name="cep">Cep</string>
+    <string name="numero">Número</string>
+    <string name="bairro">Bairro</string>
+    <string name="complemento">Complemento</string>
+    <string name="cidade">Cidade</string>
+    <string name="contato">Contato</string>
+
 </resources>

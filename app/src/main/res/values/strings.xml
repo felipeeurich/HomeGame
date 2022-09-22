@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HomeGame</string>
+    <string name="email">Digite seu e-mail</string>
+    <string name="senha">Digite sua senha</string>
+    <string name="logar">Logar</string>
+    <string name="cadastro_novo">Não tem conta? Cadastre-se</string>
 </resources>

@@ -4,4 +4,6 @@
     <string name="senha">Digite sua senha</string>
     <string name="logar">Logar</string>
     <string name="cadastro_novo">Não tem conta? Cadastre-se</string>
+    <string name="nome">Nome</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>

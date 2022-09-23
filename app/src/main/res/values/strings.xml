@@ -12,7 +12,8 @@
     <string name="numero">Número</string>
     <string name="bairro">Bairro</string>
     <string name="complemento">Complemento</string>
-    <string name="cidade">Cidade</string>
     <string name="contato">Contato</string>
+    <string name="endereco">Endereço</string>
+    <string name="concluir_cadastro">CONCLUIR CADASTRO</string>
 
 </resources>

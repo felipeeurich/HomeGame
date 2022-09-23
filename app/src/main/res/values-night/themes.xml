@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.HomeGame" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#F82E2E2E</item> <!-- botões -->
+        <item name="colorPrimary">#680000</item> <!-- botões -->
         <item name="colorPrimaryVariant">@color/fundo</item> <!-- parte superior -->
         <item name="colorOnPrimary">@color/white</item> <!-- texto dos botôes -->
         <!-- Secondary brand color. -->

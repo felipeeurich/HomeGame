@@ -17,6 +17,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        getSupportActionBar().hide();
+
         IniciarComponentes();
 
         text_tela_cadastro.setOnClickListener(new View.OnClickListener() {

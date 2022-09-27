@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2F3640"
-    tools:context=".Cadastro2Activity">
+    tools:context=".view.Cadastro2Activity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout12"

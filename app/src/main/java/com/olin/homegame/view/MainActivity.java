@@ -1,8 +1,10 @@
-package com.olin.homegame;
+package com.olin.homegame.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.olin.homegame.R;
 
 public class MainActivity extends AppCompatActivity {
 

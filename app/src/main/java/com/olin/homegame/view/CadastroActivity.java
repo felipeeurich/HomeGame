@@ -3,6 +3,7 @@ package com.olin.homegame.view;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -97,5 +98,12 @@ public class CadastroActivity extends AppCompatActivity {
         campoEmail = findViewById(R.id.editEmail);
         campoSenha = findViewById(R.id.editSenha);
         campoTelefone = findViewById(R.id.editTelefone);
+    }
+
+
+    public void abrirMain(){
+
+        Intent intent = new Intent(CadastroActivity.this,MainActivity.class);
+        startActivity(intent);
     }
 }

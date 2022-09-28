@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.FirebaseAuthInvalidUserException;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
+import com.google.firebase.auth.FirebaseUser;
 import com.olin.homegame.R;
 import com.olin.homegame.config.ConfiguracaoFirebase;
 import com.olin.homegame.model.Usuario;
@@ -53,6 +54,17 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser usuarioAtual = auth.getCurrentUser();
+        if(usuarioAtual != null){
+            abrirMain();
+        }
+
+    }
+
     public void loginUsuario(View view){
 
         Usuario usuario = new Usuario();
@@ -105,8 +117,6 @@ public class LoginActivity extends AppCompatActivity {
         text_tela_cadastro = findViewById(R.id.text_tela_cadastro);
         campoEmail = findViewById(R.id.editEmail);
         campoSenha = findViewById(R.id.editSenha);
-
-
 
     }
 }
